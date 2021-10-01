@@ -22,7 +22,7 @@ var S = {
     document.body.classList.add('body--ready');
 
     if (i !== -1) {
-      S.UI.simulate(decodeURI(action).substring(i + 3));
+      S.UI.simulate(decodeURI(action).substring(i + 5));
     } else {
       S.UI.simulate('|#countdown 10||张楷明|祝|外公|生|日|快|乐！|#heart|');
     }
