@@ -555,7 +555,7 @@ S.ShapeBuilder = (function () {
       };
 
       image.onerror = function () {
-        callback(S.ShapeBuilder.letter('What?'));
+        callback(S.ShapeBuilder.letter('(*╹▽╹*)'));
       }
 
       image.src = url;
