@@ -204,7 +204,7 @@ S.UI = (function () {
           break;
 
         default:
-          S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
+          S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? '(*╹▽╹*)' : current));
       }
     }, 5500, sequence.length);
   }
